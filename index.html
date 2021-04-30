@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML4</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="header_body">
+                <a href="#" class="header_logo">
+                    <img src="img/logo_Oxit.png" alt="logo_Oxit" height="80" width="80">
+                </a>
+                <div class="header_burger_background">
+                    <div class="header_burger">
+                        <span></span>
+                    </div>
+                </div>
+
+                <nav class="header_menu">
+                    <ul class="header_list">
+                        <li>
+                            <a href="#" class="header_link">Головна</a>
+                        </li>
+                        <li>
+                            <a href="#program" class="header_link">Програма курсу</a>
+                        </li>
+                        <li>
+                            <a href="#reviews" class="header_link">Відгуки про курс</a>
+                        </li>
+                        <li>
+                            <a href="#video" class="header_link">Відео</a>
+                        </li>
+                        <li>
+                            <a href="#mentors" class="header_link">Менторы</a>
+                        </li>
+                        <li>
+                            <a href="#apply" class="header_link active2">Подати заявку</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="webform">
+        <div class="container">
+            <div class="webform_body">
+                <div class="webform_text">
+                    <span class="htext">Курси програмування у Луцьку</span>
+                    <p>
+                        Сфера IT розвивається максимально швидко. Зараз дуже
+                        популярно здобувати освіту, що повязана з IT. Існує лише
+                        одна проблема - брак дійсно кваліфікованих спеціалістів в
+                        України. Під час навчання в університеті ми отримуємо
+                        мало практики і "живих", реальних кейсів. IT школа OxIT
+                        створила таку методику навчання, при якій за короткий
+                        час ви отримаєте необхідні знання. щоб стати IT
+                        спеціалістом. Чекаємо вас на наших курсах з
+                        програмування в Луцьку. Старт наступного курсу 3 серпня.
+                    </p>
+
+                </div>
+                <div class="webform_reg">
+                    <h2>Зареєструватися на курси</h2>
+                    <form id="form">
+                        <div class="form_field">
+                        <label for="name">Ім'я<span>*</span></label><br>
+                        <input type="text" name="name" id="name" placeholder="Ім'я" required minlength="2" maxlength="60"><br>
+                        <label for="surname">Прізвище<span>*</span></label><br>
+                        <input type="text" name="surname" id="surname" placeholder="Прізвище" required minlength="2" maxlength="60"><br>
+                        <label for="interested">Мене більше цікавить<span>*</span><br></label>
+                        <input type="text" name="interested" id="interested" placeholder="developer or QA" required minlength="2" maxlength="60"><br>
+                        <label for="phone">Номер телефон<span>*</span><br></label>
+                        <input type="tel" name="phone" id="phone" placeholder="Номер телефон: +38 XXX XX XX XXX" required pattern="[+][3][8][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"><br>
+                        <label for="email">Email<span>*</span><br></label>
+                        <input type="email" name="email" id="email" placeholder="Email" required><br>
+                        </div>
+                        <label><input type="checkbox" name="allow"> Я погоджуюся із <a href="#">Політикою Конфідеційності</a><span> *</span></label><br>
+                        <input class="btm" type="submit" value="ЗАРЕЄСТРУВАТИСЯ ЗАРАЗ">
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a name="program"></a>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
